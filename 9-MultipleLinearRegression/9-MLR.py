@@ -61,7 +61,6 @@ regressorGender.fit(x_train, y_train)
 
 y_predGender = regressorGender.predict(x_test)
 
-
 #from sklearn.metrics import mean_absolute_error
 #genderError = mean_absolute_error(y_test, y_predGender)
 
