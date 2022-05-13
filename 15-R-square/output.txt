@@ -1,0 +1,20 @@
+Linear R2 score:
+0.6690412331929894
+
+Polynomial R2 score:
+0.9973922891706613
+
+SVR R2 score:
+0.7513836788854973
+
+Decision Tree R2 score:
+1.0
+
+Random Forest R2 score:
+0.9704434230386582
+
+Random Forest R2 score x-0.4 values:
+0.9704434230386582
+
+Random Forest R2 score x+0.5 values:
+0.8820523231127324
