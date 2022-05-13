@@ -1,0 +1,34 @@
+Yalnızca UnvanSeviyesi kolonu ile r2 değerleri
+
+Multiple Linear Regression R2 score:
+0.5285811733746244
+
+Polynomial Regression R2 score:
+0.8174873280442546
+
+Support vector regressor R2 score:
+0.5841869084594333
+
+Decision Tree R2 score:
+0.8343186200100907
+
+Random Forest R2 score:
+0.8284081476481634
+
+
+Tüm kolonlar ile r2 değerleri
+
+Multiple Linear Regression R2 score:
+0.5857207050854021
+
+Polynomial Regression R2 score:
+0.9990003560225872
+
+Support vector regressor R2 score:
+0.6287203839391851
+
+Decision Tree R2 score:
+1.0
+
+Random Forest R2 score:
+0.9475498704400864
