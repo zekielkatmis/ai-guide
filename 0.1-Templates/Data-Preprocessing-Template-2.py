@@ -18,11 +18,11 @@ ohe = preprocessing.OneHotEncoder()
 country = ohe.fit_transform(country).toarray()
 
 # %% encoding sex
-sex = data.iloc[:, -1:].values
+gender = data.iloc[:, -1:].values
 
 # man = 0 - woman = 1
 le = preprocessing.LabelEncoder()
-sex[:, -1] = le.fit_transform(data.iloc[:, -1])
+gender[:, -1] = le.fit_transform(data.iloc[:, -1])
 
 # dummy variable 
 # ohe = preprocessing.OneHotEncoder()
@@ -37,7 +37,7 @@ result1 = pd.DataFrame(data=country, index=range(22),
 result2 = pd.DataFrame(data=HWA, index=range(
     22), columns=['boy', 'kilo', 'yas'])
 
-result3 = pd.DataFrame(data=sex, index=range(22), columns=['cinsiyet'])
+result3 = pd.DataFrame(data=gender, index=range(22), columns=['cinsiyet'])
 
 # dummy variable 
 # result3 = pd.DataFrame(data=sex[:, :1], index=range(22), columns=['cinsiyet'])

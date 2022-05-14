@@ -1,0 +1,7 @@
+Confusion matrix:
+[[0 1]
+ [7 0]]
+
+Confusion matrix without outlier:
+[[3 0]
+ [0 3]]
