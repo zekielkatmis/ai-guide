@@ -1,0 +1,15 @@
+Confusion matrix when kernel=linear:
+[[0 1]
+ [6 1]]
+
+Confusion matrix when kernel=rbf:
+[[1 0]
+ [5 2]]
+
+Confusion matrix when kernel=poly:
+[[1 0]
+ [7 0]]
+
+Confusion matrix when kernel=sigmoid:
+[[0 1]
+ [7 0]]

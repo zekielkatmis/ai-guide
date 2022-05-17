@@ -1,0 +1,8 @@
+Confusion matrix when n_neighbors=5:
+[[0 1]
+ [6 1]]
+
+Confusion matrix when n_neighbors=1:
+[[1 0]
+ [1 6]]
+
