@@ -1,0 +1,11 @@
+Confusion matrix when criterion="gini" and n_estimators=10:
+[[1 0]
+ [1 6]]
+
+Confusion matrix when criterion="entropy" and n_estimators=10:
+[[1 0]
+ [1 6]]
+
+Confusion matrix when n_estimators=5:
+[[0 1]
+ [1 6]]

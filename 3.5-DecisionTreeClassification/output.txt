@@ -1,0 +1,8 @@
+Confusion matrix when criterion="entropy":
+[[1 0]
+ [1 6]]
+
+Confusion matrix when criterion="gini":
+[[1 0]
+ [1 6]]
+

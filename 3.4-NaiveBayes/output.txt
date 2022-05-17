@@ -1,0 +1,7 @@
+Confusion matrix Gaussian Naive Bayes:
+[[0 1]
+ [6 1]]
+
+Confusion matrix Benoulli Naive Bayes:
+[[0 1]
+ [1 6]]
