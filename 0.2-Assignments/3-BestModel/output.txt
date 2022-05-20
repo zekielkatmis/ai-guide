@@ -1,0 +1,29 @@
+Confusion matrix for Logistic Regression:
+[[16  0  0]
+ [ 0 18  1]
+ [ 0  2 13]]
+
+Confusion matrix for KNeighborsClassifier:
+[[16  0  0]
+ [ 0 18  1]
+ [ 0  1 14]]
+
+Confusion matrix for SVM:
+[[16  0  0]
+ [ 0 18  1]
+ [ 0  1 14]]
+
+Confusion matrix for Gaussian Naive Bayes:
+[[16  0  0]
+ [ 0 19  0]
+ [ 0  2 13]]
+
+Confusion matrix for DecisionTreeClassifier:
+[[16  0  0]
+ [ 0 18  1]
+ [ 0  0 15]]
+
+Confusion matrix for RandomForestClassifier:
+[[16  0  0]
+ [ 0 18  1]
+ [ 0  1 14]]
