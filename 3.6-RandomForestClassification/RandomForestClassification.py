@@ -38,3 +38,14 @@ with open("output.txt", "a") as f:
     print('Confusion matrix when n_estimators=5:', file=f)
     print(cm, file=f)
     print("", file=f)
+# %% roc ve auc için probability
+y_probability = rfc.predict_proba(X_test)
+
+with open("output.txt", "a") as f:
+    print('Probability', file=f)
+    print(y_probability, file=f)
+    print("", file=f)
+
+from sklearn import metrics
+
+fpr, tpr, threshold = metrics.roc_curve(y_test, y_probability[:,0], pos_label='e')

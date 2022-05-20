@@ -9,3 +9,13 @@ Confusion matrix when criterion="entropy" and n_estimators=10:
 Confusion matrix when n_estimators=5:
 [[0 1]
  [1 6]]
+ 
+Probability
+[[0.3 0.7]
+ [0.2 0.8]
+ [0.2 0.8]
+ [0.1 0.9]
+ [0.8 0.2]
+ [0.1 0.9]
+ [0.2 0.8]
+ [0.6 0.4]]
