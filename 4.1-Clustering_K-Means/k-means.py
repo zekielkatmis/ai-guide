@@ -10,8 +10,15 @@ x = data[["Hacim", "Maas"]]
 # %% k-means
 from sklearn.cluster import KMeans
 
-kmeans = KMeans(n_clusters=3, init="k-means++")
-kmeans.fit(x)
+kmeans = KMeans(n_clusters=4, init="k-means++")
+y_pred = kmeans.fit_predict(x)
+
+X = x.to_numpy()
+plt.scatter(X[y_pred==0,0], X[y_pred==0,1],s=100, c="red")
+plt.scatter(X[y_pred==1,0], X[y_pred==1,1],s=100, c="blue")
+plt.scatter(X[y_pred==2,0], X[y_pred==2,1],s=100, c="green")
+plt.scatter(X[y_pred==3,0], X[y_pred==3,1],s=100, c="yellow")
+plt.show()
 
 with open("output.txt", "a") as f:
     print('K-Means cluster points:', file=f)
