@@ -1,0 +1,19 @@
+Rule list:
+[
+RelationRecord(items=frozenset({'ground beef', 'herb & pepper'}), 
+support=0.015997866951073192, 
+ordered_statistics=[OrderedStatistic(items_base=frozenset({'herb & pepper'}), 
+items_add=frozenset({'ground beef'}), 
+confidence=0.3234501347708895, 
+lift=3.2919938411349285)]), 
+
+RelationRecord(items=frozenset({'ground beef', 'nan', 'herb & pepper'}), 
+support=0.015997866951073192, 
+ordered_statistics=[OrderedStatistic(items_base=frozenset({'herb & pepper'}), 
+items_add=frozenset({'ground beef', 'nan'}), 
+confidence=0.3234501347708895, 
+lift=3.2919938411349285),
+
+OrderedStatistic(items_base=frozenset({'nan', 'herb & pepper'}), 
+items_add=frozenset({'ground beef'}), confidence=0.3234501347708895, 
+lift=3.2919938411349285)])]
